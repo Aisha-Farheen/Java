@@ -38,6 +38,6 @@ class methodOverload
     overload ov=new overload();
     ov.calculate(6,'p');
     ov.calculate(6,4,'p');
-    ov.calculate("Ansar","Ansar");
+    ov.calculate("Aisha","Aisha");
    }
 }
