@@ -7,7 +7,7 @@ class fileDetails
 {
   public static void main(String args[])
    {
-    File f1=new File("C:\\Users\\junaid ansar\\Desktop\\ansar\\java\\packages");
+    File f1=new File("C:\\Users\\aisha\\Desktop\\aisha\\java\\packages");
     if (f1.isDirectory())
      {
        System.out.println("Details of :"+f1.getAbsolutePath());
@@ -15,7 +15,7 @@ class fileDetails
        System.out.println("Total No.of files :"+s.length);
        for(int i=0;i<s.length;i++)
         {
-           File f2=new File("C:\\Users\\junaid ansar\\Desktop\\ansar\\java\\packages"+"\\"+s[i]);
+           File f2=new File("C:\\Users\\aisha\\Desktop\\aisha\\java\\packages"+"\\"+s[i]);
            if (f2.isDirectory())
                System.out.println(s[i]+"is a directory "); 
            else
@@ -23,7 +23,7 @@ class fileDetails
          }
        }
      else
-       System.out.println("C:\\Users\\junaid ansar\\Desktop\\ansar\\java\\packages"+" is not a directory");
+       System.out.println("C:\\Users\\aisha\\Desktop\\aisha\\java\\packages"+" is not a directory");
      System.out.println(" enter a file name : ");
      Scanner sc=new Scanner(System.in);
      String fname=sc.nextLine();
@@ -31,7 +31,7 @@ class fileDetails
      boolean found=false;
      for(int i=0;i<filelist.length;i++)
       {
-        File f2=new File("C:\\Users\\junaid ansar\\Desktop\\ansar\\java\\packages"+"//"+filelist[i]);
+        File f2=new File("C:\\Users\\aisha\\Desktop\\aisha\\java\\packages"+"//"+filelist[i]);
         if (fname.equals(f2.getName()))
         {
           System.out.println(fname+"exists....I found it ");
